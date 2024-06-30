@@ -6,5 +6,5 @@ def arraysum(arr):
         return arr[0]
     return arr[0]+ arraysum(arr[1:])
 
-result = arayrsum(A)
+result = arraysum(A)
 print(result)
