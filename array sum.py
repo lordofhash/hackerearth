@@ -14,5 +14,4 @@ def sumarray(arr):
         return arr[0]
     return arr[0] + sumarray(arr[1:])
 
-result2=sumarray(array1)
 
